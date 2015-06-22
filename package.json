@@ -1,0 +1,30 @@
+{
+  "name": "google-elevation-api",
+  "version": "1.0.0",
+  "description": "This module will help reading the Google Maps Elevation API",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Mikko Haapoja",
+    "email": "me@mikkoh.com",
+    "url": "https://github.com/mikkoh"
+  },
+  "dependencies": {
+    "google-maps-api": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "google,elevation,api,maps,height"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/google-elevation-api.git"
+  },
+  "homepage": "https://github.com/Jam3/google-elevation-api",
+  "bugs": {
+    "url": "https://github.com/Jam3/google-elevation-api/issues"
+  }
+}
