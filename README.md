@@ -9,8 +9,11 @@ This module will help reading the Google Maps Elevation API.
 var elevationApi = require('google-elevation-api');
 
 elevationApi({
-    key: 'API KEY',
-    locations: locations
+    key: 'GOOGLE MAPS API KEY',
+    locations: [
+        [43.669662, -79.282848],
+        [62.794543, 22.827826]
+    ]
 }, function(err, locations) {
     if(err) {
         console.log(err);
