@@ -1,7 +1,6 @@
 var elevationApi = require('./..');
 var tape = require('tape');
 
-
 tape('get location', function(t) {
   var locations = [
     [43.669662, -79.282848],
@@ -9,7 +8,7 @@ tape('get location', function(t) {
   ];
 
   elevationApi({
-    key: require('./apiKey'),
+    key: process.env.GOOGLE_API_KEY,
     locations: locations
   }, function(err, locations) {
 

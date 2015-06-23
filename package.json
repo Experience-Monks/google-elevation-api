@@ -13,10 +13,13 @@
     "google-maps-api": "^1.0.2"
   },
   "devDependencies": {
+    "budo": "^4.0.0",
+    "envify": "^3.4.0",
+    "opnr": "^1.0.4",
     "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "budo test/index.js -- -t envify | opnr"
   },
   "keywords": [
     "google,elevation,api,maps,height"
