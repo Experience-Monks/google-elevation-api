@@ -35,10 +35,10 @@ module.exports = function elevationAPI(options, callback) {
 
           results = results.map( function(result) {
 
-            result.location = {
-              lat: result.location.lat(),
-              lng: result.location.lng()
-            };
+            result.location = [
+              result.location.lat(),
+              result.location.lng()
+            ];
 
             return result;
           });

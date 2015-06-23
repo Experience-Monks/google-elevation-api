@@ -12,7 +12,9 @@
   "dependencies": {
     "google-maps-api": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
   "scripts": {
     "test": "node test.js"
   },
